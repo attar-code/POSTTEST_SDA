@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int FindMin(int A[], int n, int &indexmin){
-    int min = A[0];
+int FindMin(int angka[], int n, int &indexmin){
+    int min = angka[0];
     indexmin = 0;
     
     for(int i = 1;i < n;i++){
-        if(A[i] < min) {
-            min = A[i];
+        if(angka[i] < min) {
+            min = angka[i];
             indexmin = i;
         }
     }
